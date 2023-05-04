@@ -414,37 +414,37 @@ Compose:
     # Export panel
     Export:
       Render:
-        Name: Render video
+        Name: Kết xuất video
         Description: |-
-          Automatically export chart view video.
-          Requires FFmpeg to be installed.
+          Tự động xuất chart view video.
+          Cần lắp dặt FFmpeg.
         ConfigureFFmpeg: Configure FFmpeg executable path
         Settings:
-          Name: Settings
-          From: From
-          To: To
-          Quality: Quality
+          Name: Cài đặt
+          From: Từ
+          To: Đến
+          Quality: Chất lượng
           FPS: FPS
-          Width: Width
-          Height: Height
-          Size: Size
+          Width: Chiều rộng
+          Height: Chiều dài
+          Size: Kích cỡ
           ShowShutter: Show shutter
-        Start: Start rendering
-        Cancel: Cancel rendering
+        Start: Bắt đầu kết xuất
+        Cancel: Dừng kết xuất
         Status: |-
-          Rendering video. This will take a while.
+          Đang kết xuất. This will take a while.
           Elapsed: {0}
           Remaining: {1}
       Package:
-        Name: Export package
+        Name: Xuất gói màn chơi
         Description: |-
-          Export a .arcpkg package file to share to other players.
+           Xuất gói .arcpkg để chia sẻ cho người chơi
         Publisher: Publisher
-        Package: Package
-        Version: Version
+        Package:  Tên gói
+        Version: Phiên bản
         BlankField: Please enter both publisher and package name information
         Identifier: "Your package identifier is: {0}"
-        Export: Export
+        Export: Xuất gói
     # Editor settings panel
     Settings:
       Label:
@@ -455,14 +455,14 @@ Compose:
           CheckMissing: Check missing entries
         Gameplay:
           Name: Gameplay
-          Speed: Speed
-          AspectRatio: Aspect Ratio
+          Speed: Tốc độ
+          AspectRatio: Tỷ lệ khung hình
         Grid:
           Name: Grid
           Slot: Slot
-          UseDefault: Use default
-          FromLane: From lane
-          ToLane: To lane
+          UseDefault: Dùng mặc định
+          FromLane: Từ làn
+          ToLane: Đến làn
           ScaleGrid: Scale with sky input
           Gridline: Define gridlines
           Script: Lua script
@@ -472,10 +472,10 @@ Compose:
           Effect: Effect
           GlobalOffset: Global offset
         Display:
-          Name: Display
+          Name: Màn hình
           Vsync: Vsync
           Framerate: Framerate
-          ShowCounter: Show framerate
+          ShowCounter: Hiện Framerate
         Input:
           Name: Input
           ReloadKeybinds: Reload keybinds
